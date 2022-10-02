@@ -25,4 +25,10 @@ jobs:
          chmod +x build.sh
          ./build.sh
       shell: bash
+    - name: 'Upload Artifact'
+      uses: actions/upload-artifact@v3
+      with:
+        name: Ubuntu-Vanilla-22.04-amd64.iso
+        path: ../iso/Ubuntu-Vanilla-22.10-amd64.iso
+        retention-days: 5
 
