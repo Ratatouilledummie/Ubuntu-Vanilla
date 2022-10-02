@@ -307,4 +307,4 @@ sudo xorriso \
       /EFI/efiboot.img=isolinux/efiboot.img
 
 # Geração do MD5 externo da imagem de instalação.
-md5sum ../iso/$name-amd64.iso > ../iso/$name-amd64.md5
+#md5sum ../iso/$name-amd64.iso > ../iso/$name-amd64.md5
