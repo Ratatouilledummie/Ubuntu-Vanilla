@@ -15,7 +15,7 @@ workflow_dispatch:
   
   jobs:
   example-job:
-    steps:
+  steps:
       runs-on: ubuntu-latest
       - name: Run build script
         run: ./.github/scripts/build.sh
