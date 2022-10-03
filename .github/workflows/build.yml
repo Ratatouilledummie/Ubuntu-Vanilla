@@ -29,6 +29,6 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: Ubuntu-Vanilla-22.10-amd64.iso
-        path: ~/
+        path: ~/Ubuntu-Vanilla-22.10-amd64.iso
         retention-days: 5
 
