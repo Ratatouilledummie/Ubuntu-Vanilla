@@ -300,7 +300,7 @@ sudo xorriso \
    -e EFI/efiboot.img \
    -no-emul-boot \
    -append_partition 2 0xef isolinux/efiboot.img \
-   -output "~/$name-22.10-amd64.iso" \
+   -output "/home/runner/$name-22.10-amd64.iso" \
    -graft-points \
       "." \
       /boot/grub/bios.img=isolinux/bios.img \
