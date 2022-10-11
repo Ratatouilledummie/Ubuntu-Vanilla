@@ -88,7 +88,7 @@ sudo chroot $HOME/$name/chroot apt install -y --fix-missing \
 
 # Ambiente de desktop
 # Instalação do Ambiente Gnome Vanilla
-#sudo chroot $HOME/$name/chroot apt-mark hold gnome-shell
+sudo chroot $HOME/$name/chroot apt-mark hold gnome-shell
 sudo chroot $HOME/$name/chroot apt install -y vanilla-gnome-desktop vanilla-gnome-default-settings gdm3 gnome-maps gnome-weather polari gnome-documents gnome-photos gnome-music gnome-shell libreoffice
 
 # Programas inclusos no sistema
